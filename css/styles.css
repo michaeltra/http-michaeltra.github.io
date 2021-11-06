@@ -1,0 +1,15 @@
+﻿body{}
+a{text-decoration:none!important;} /* this will style router anchors */
+#accomplishments{text-align:center;}
+#contentContainer{clear:both;} /* clear to breakline from #router-view that has float  */
+#header{box-shadow: 0 1px 6px #f5eded; padding:5px;} /* H-offset, height, gradient-fade,   */
+#myCarousel{position:sticky;top:0;z-index:2;box-shadow:0 1px 2px 1px #999;}
+.profilepng{height:50px;width:50px;border-radius:50%;}
+#router-view{padding-left:300px;color:white;} /* tied to #contentContainer */
+#xpDetails{position:sticky;top:0;}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    
+  }
+}
