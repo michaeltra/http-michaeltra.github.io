@@ -1,6 +1,21 @@
-﻿a{text-decoration:none!important;} /* this will style router anchors */
+﻿a{text-decoration:none!important;} /* this will style router anchors EA2A2E*/
+a:active{color:red!important;}
+#app{text-align:center;color:white;} /* tied to #contentContainer */
+.carousel{}
 #myCarousel{box-shadow:0 1px 2px 1px #999;}
 .profilepng{height:50px;width:50px;border-radius:50%;}
-#app{text-align:center;color:white;} /* tied to #contentContainer */
 
+.router-links{background:#EA2A2E; border:1px solid white;border-radius:18px; color:#111; padding:10px;}
+.router-link{box-shadow:0 1px 2px 1px red;} 
+.router-links:hover{background:#333;color:white;}
 #router-output{font-size:22px;text-align:left!important;}
+
+@media (max-width: 1000px){
+.router-links{
+display:block;margin-bottom:-20px;
+}}
+
+@media(max-width:1000px){
+.item .active,.carousel,.carousel-inner{
+height:410px;
+ }}
