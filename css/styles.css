@@ -2,5 +2,5 @@
 #myCarousel{box-shadow:0 1px 2px 1px #999;}
 .profilepng{height:50px;width:50px;border-radius:50%;}
 #app{text-align:center;color:white;} /* tied to #contentContainer */
-#router-links{clear:both;}
-#router-output{font-size:20px;text-align:left!important;clear:both;}
+
+#router-output{font-size:22px;text-align:left!important;}
