@@ -56,8 +56,8 @@ input:focus{outline:1px solid red;}
     background:}
 
 @media (max-width: 550px){
-.bottom-links a{
+.bottom-links{
 width:98%;}}
 
 @media (max-width: 550px){
-input{width:90%;}}
+input{width:94%;}}
