@@ -1,22 +1,25 @@
 ﻿/* useful tips
 //clear both only on element that follows a floated element
-//this prevents cutting off of box add box-sizing: border-box;-moz-box-sizing: border-box;float: left; */
+/* Vertical Centering height: 100px; line-height: 100px;  */
+/*this prevents cutting off of box add box-sizing: border-box;-moz-box-sizing: border-box;float: left; */
 
-a{text-decoration:none;color:maroon;}
+*{text-decoration:none;}
+a{color:maroon;}
 body{margin:0;font-family:Arial, Helvetica, sans-serif;}
 .bottom-links {background:#edebf0; border:1px solid maroon;border-radius:3px;
-    margin:8px;text-align:center;} 
+    margin:8px;text-align:center;
+  height: 100px; line-height: 100px; /* height: 100px; line-height: 100px; these 2 for vertical centering */
+  text-align: center;} 
 .bottom-links {/* add this prevents cutting off of box */
     box-sizing: border-box; /* add this */
     -moz-box-sizing: border-box; /* Firefox */
     float:left;  }
-.bottom-links a{display:inline-block; padding:80px 8px 80px 8px; min-width:180px;}
+.bottom-links a{display:inline-block; min-height:100%; min-width:180px;} /* min-height so that hover uses 100% */
 .bottom-links a:focus{color:white;background:#555;}
 .bottom-links a:hover{color:white;background:#888;}
 
 #app{background:white;height:83px; padding-top:1px; position:sticky;top:0;box-shadow: 0 4px 5px -2px #999;}/* #ebeff5; */
 #appxx{padding:20px 30px 0 30px;}
-
 
 #dynamicx{clear:both;text-align:center;color:#555;} 
 
@@ -58,6 +61,14 @@ input:focus{outline:1px solid red;}
 @media (max-width: 550px){
 .bottom-links{
 width:98%;}}
+
+@media (max-width: 550px){
+.bottom-links a{min-width:0;
+width:100%;}}
+
+@media (max-width: 550px){
+#appxx{
+}}
 
 @media (max-width: 550px){
 input{width:94%;}}
