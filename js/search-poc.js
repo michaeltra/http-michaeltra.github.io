@@ -55,16 +55,28 @@ const app = new Vue ({
         'https://www.smartsheet.com/sites/default/files/2021-05/icon-honest-blue-execute.svg'
       ),
       new Post(
-        'Float', 
+        'Float Reviews', 
         'https://www.float.com/', 
         '', 
         'images/float.webp'
       ),
       new Post(
-        'Project Manager', 
+        'Project Manager Insights', 
         'https://learn.projectmanager.com/pm/home-pricing', 
         '',
-        'https://learn.projectmanager.com/hubfs/PM_Stamp_Blue-Dec-09-2020-03-42-37-42-PM.jpg'
+        'images/pm.png'
+      ),      
+      new Post(
+        'Training Academy', 
+        'https://learn.projectmanager.com/pm/home-pricing', 
+        '',
+        'images/pm.png'
+      ),
+      new Post(
+        'Personal Details', 
+        'https://learn.projectmanager.com/pm/home-pricing', 
+        '',
+        'images/pm.png'
       ),
 ]
   },
@@ -72,6 +84,97 @@ const app = new Vue ({
     filteredList() {
       return this.postList.filter(post => {
         return post.title.toLowerCase().includes(this.search.toLowerCase()) //can change post.link or post.author etc
+      })
+    }
+  }
+})
+
+class Postxx {
+  constructor(titlexx, linkxx, authorxx, imgxx) {
+    this.titlexx = titlexx;
+    this.linkxx = linkxx;
+    this.authorxx = authorxx;
+    this.imgxx = imgxx;
+  }
+}
+
+const appxx = new Vue ({
+  el: '#appxx',
+  data: {
+    search: '', //you can initialize search text
+    postListxx : [
+      new Postxx(
+        'Personal Information',
+        'https://www.wrike.com/use-cases/resource-management/',
+        '', '' 
+        
+      ),
+      new Postxx(
+        'Org Directory', 
+        'https://start.mavenlink.com/resource-management-software/', 
+        '',
+        ''
+      ),
+      new Postxx(
+        'Onboarding', 
+        'https://www.replicon.com/polaris-lp/resource-management/', 
+        '', 
+        ''
+      ),
+      new Postxx(
+        'Pay Vouchers', 
+        'https://get.mosaicapp.com/resource-management-software', 
+        '',
+        ''
+      ),
+      new Postxx(
+        'Absenses', 
+        'https://monday.com/lp/resource/comparison/bundle/', 
+        '', 
+        ''
+      ),
+      new Postxx(
+        'Career Performance', 
+        'https://info.gartnerdigitalmarkets.com/parallax-gdm-lp', 
+        '',
+        ''
+      ),
+      new Postxx(
+        'Learning', 
+        'https://www.smartsheet.com/s/rm-resource-management-capterra', 
+        '',
+        ''
+      ),
+      new Postxx(
+        'Benefits', 
+        'https://www.float.com/', 
+        '', 
+        ''
+      ),
+      new Postxx(
+        'Talent Profile', 
+        'https://learn.projectmanager.com/pm/home-pricing', 
+        '',
+        ''
+      ),      
+      new Postxx(
+        'Feedback Requests', 
+        'https://learn.projectmanager.com/pm/home-pricing', 
+        '',
+        ''
+      ),
+      new Postxx(
+        'Career Development', 
+        'https://learn.projectmanager.com/pm/home-pricing', 
+        '',
+        ''
+      ),
+]
+  },
+  computed: {
+    filteredList() {
+      return this.postListxx.filter(postxx => {
+        return postxx.titlexx.toLowerCase().includes(this.search.toLowerCase()) //can change post.link or post.author etc
       })
     }
   }
