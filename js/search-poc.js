@@ -64,19 +64,19 @@ const app = new Vue ({
         'Project Manager Insights', 
         'https://learn.projectmanager.com/pm/home-pricing', 
         '',
-        'images/pm.png'
+        'images/TM.png'
       ),      
       new Post(
         'Training Academy', 
         'https://learn.projectmanager.com/pm/home-pricing', 
         '',
-        'images/pm.png'
+        'images/TM.png'
       ),
       new Post(
         'Personal Details', 
         'https://learn.projectmanager.com/pm/home-pricing', 
         '',
-        'images/pm.png'
+        'images/TM.png'
       ),
 ]
   },
