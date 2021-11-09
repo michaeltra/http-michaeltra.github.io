@@ -5,8 +5,8 @@
 
 *{text-decoration:none;}
 a{color:maroon;}
-#app{background:white;height:83px;clear:both; padding:0 0 0 90px; position:sticky;
-top:0;box-shadow: 0 4px 5px -2px #999;}/* #ebeff5; */
+#app{background:white;box-shadow: 0 4px 5px -2px #999;
+	position:sticky; top:0;}/* #ebeff5;height:83px; */
 #appxx{padding:20px 30px 0 30px;}
 
 body{margin:0;font-family:Arial, Helvetica, sans-serif;}
@@ -22,20 +22,20 @@ float:left;  }
 .bottom-links a{display:inline-block; min-height:100%; min-width:180px;} /* min-height so that hover uses 100% */
 .bottom-links a:focus{color:white;background:#555;}
 .bottom-links a:hover{color:white;background:#888;}
+#dynamicx{clear:both;color:#555; text-align:center;padding-top:30px;} 
 
-
-#dynamicx{clear:both;text-align:center;color:#555;} 
 img {height:18px;}
-input{border:1px solid #999; border-radius:2px; box-shadow:0px 2px 7px 2px #ebeff5; display:block;
-margin:0 auto; padding:6px; width:500px;} /* margin:0 auto;display:block; to center input */
+input{background:white; border:1px solid #999; border-radius:2px; box-shadow:0px 2px 7px 2px #ebeff5; display:block;
+margin:0 auto; padding:6px; width:80%;} /* margin:0 auto;display:block; to center input */
 input:focus{outline:1px solid red;}
 
 #masthead{text-align:center;color:#555;margin-top:-8px;}
+#masthead-wrapper{position:sticky; top:0;}
 ::placeholder{color:#999;}
-.scrollmenu {overflow-y:hidden; padding:3px;white-space: nowrap;}
+.scrollmenu {overflow-y:hidden; padding:3px 0 3px 70px;white-space: nowrap;}
 .scrollmenu a {padding:10px;}
 .scrollmenu a:hover {background-color: #e4e9f0;}
-#search-results{position: absolute; z-index: 1;margin:55px 0 0 4px;}
+#search-results{position: absolute;margin:50px 0 0 0px;z-index:3;background:white;padding:5px 5px 0 20px;}
 
 ::-webkit-scrollbar {height: 8px;width: 7px;}/* Track */
 ::-webkit-scrollbar-track {box-shadow: inset 0 0 5px #999;}/* Handle */
@@ -45,19 +45,20 @@ input:focus{outline:1px solid red;}
 ::-webkit-scrollbar-track-piece {background:}
 
 @media (max-width: 550px){
-.bottom-links{
-width:98%;}}
-@media (max-width: 550px){
-.bottom-links a{min-width:0;
-width:100%;}}
-@media (max-width: 550px){
-::-webkit-scrollbar {
-height: 20px;
+.bottom-links{width:98%;
 }}
+
 @media (max-width: 550px){
-#app {
-height: 95px;
+.bottom-links a{min-width:0;width:100%;
 }}
+
 @media (max-width: 550px){
-input{width:94%;margin-left:-50px;}}
+input{width:94%;
+}}
+
+@media (max-width: 550px){
+::-webkit-scrollbar {height: 20px;
+}}
+
+
 
