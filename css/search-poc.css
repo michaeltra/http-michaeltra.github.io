@@ -67,7 +67,13 @@ width:98%;}}
 width:100%;}}
 
 @media (max-width: 550px){
-#appxx{
+::-webkit-scrollbar {
+  height: 20px;
+}}
+
+@media (max-width: 550px){
+#app {
+  height: 95px;
 }}
 
 @media (max-width: 550px){
