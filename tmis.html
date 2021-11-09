@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.21/vue.cjs.js" integrity="sha512xxe2aXOh4/FgkCAUyurkjk0Uw4m1gPcExFwb1Ai4Ajjg97se/FEWfrLG1na4mq8cgOzouc8qLIqsh0EGksPGdqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script-->
 <link href="css/search-poc.css" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="images/trs.png">
+<link rel="icon" type="image/x-icon" href="images/TRS.png">
 </head>
 <style>
 </style>
@@ -20,7 +20,7 @@
   <input type="text" v-model="search" placeholder="&#x1F50E; Search" />
   <br>
   <div class="scrollmenu">
-    <span v-for="post in filteredList" class="searchables linksContainer">
+    <span v-for="post in filteredList">
       <a v-bind:href="post.link" target="_blank">
         <img v-bind:src="post.img"/>{{ post.author }} {{ post.title }}
       </a> 
