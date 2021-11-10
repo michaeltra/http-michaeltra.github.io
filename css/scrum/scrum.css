@@ -12,6 +12,13 @@ a:active{color:red!important;}
 #router-links-container{padding-top:40px;}
 #router-output{font-size:22px;text-align:left!important;min-height:200px;}
 
+::-webkit-scrollbar {height: 10px;width: 16px;}/* Track */
+::-webkit-scrollbar-track {box-shadow: inset 0 0 5px #999;}/* Handle */
+::-webkit-scrollbar-thumb {background:maroon; border-radius:2px;}/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {background: #b30000;}
+::-webkit-scrollbar-button {background: #999; border-radius:0px;}
+::-webkit-scrollbar-track-piece {}
+
 
 @media (max-width: 1000px){
 .router-links{
@@ -24,4 +31,8 @@ height:500px;
 }}
 @media (max-width: 1000px){
 .masthead{text-align:center;}
+}}
+
+@media (max-width: 550px){
+::-webkit-scrollbar {height: 20px;width: 20px;}
 }}
