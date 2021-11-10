@@ -1,0 +1,27 @@
+﻿a{text-decoration:none!important;} /* this will style router anchors EA2A2E*/
+a:active{color:red!important;}
+#app{text-align:center;padding:30px 0 30px 0;} /* tied to #contentContainer */
+.masthead{text-align:right;padding-right:50px;}
+#myCarousel{box-shadow:0 1px 2px 1px #999;}
+.profilepng{height:50px;width:50px;border-radius:50%;}
+
+.router-links{background:#EA2A2E; border-radius:5px; box-shadow: 0 4px 5px -2px #999;
+	color:#ede4e4; padding:16px;}
+.router-links:focus{box-shadow: 0px 17px 15px -15px blue;color:white;} 
+.router-links:hover{background:#333;color:white;}
+#router-links-container{padding-top:40px;}
+#router-output{font-size:22px;text-align:left!important;min-height:200px;}
+
+
+@media (max-width: 1000px){
+.router-links{
+display:block;margin-bottom:-24px;
+}}
+
+@media (max-width: 1000px){
+.item .active,.carousel,.carousel-inner{
+height:500px;
+}}
+@media (max-width: 1000px){
+.masthead{text-align:center;}
+}}
