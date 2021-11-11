@@ -239,13 +239,13 @@ padding-top: 40px;
 
 @media (max-width: 993px) {
   .carousel {
-    height: 633px;
-    background: #060607;
+    /*height: 633px;*/
+    /*background-color: #060607;*/
   }
 
   .carousel .item {
-    height: 633px;
-    background-color: #060607;
+    /*height: 633px;*/
+    /*background-color: #060607;*/
   }
 
 
@@ -283,13 +283,13 @@ padding-top: 40px;
   }
 
   .carousel {
-    height: 703px;
-    background: #060607;
+    /*height: 703px;*/
+    /*background-color: #060607;*/
   }
 
   .carousel .item {
     height: 703px;
-    background-color: #060607;
+    /*background-color: #060607;*/
   }
 
   .carousel-caption .col-md-8, .carousel-caption .col-md-4 {
