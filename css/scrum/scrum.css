@@ -1,17 +1,17 @@
 ﻿a{text-decoration:none!important;} /* this will style router anchors EA2A2E*/
 a:active{color:red!important;}
-#app{text-align:center;padding:30px 0 30px 0;} /* tied to #contentContainer */
+#app{text-align:center;padding:10px 0 20px 0;} /* tied to #contentContainer */
 #himetacube{padding-left:30px;position:absolute;}
 .masthead{text-align:right;padding-right:50px;}
 #myCarousel{box-shadow:0 1px 2px 1px #999;}
 .profilepng{height:50px;width:50px;border-radius:50%;}
 
-.right-float{margin:-24px 0 0 0;right:20px;position:absolute;}
+.right-floatx{margin:-24px 0 0 0;right:20px;position:absolute;}
 .router-links{background:#EA2A2E; border-radius:5px; box-shadow: 0 4px 5px -2px #999;
 	color:#ede4e4; padding:16px;}
 .router-links:focus{box-shadow: 0px 17px 15px -15px blue;color:white;} 
 .router-links:hover{background:#333;color:white;}
-#router-links-container{padding-top:40px;}
+#router-links-container{padding-top:20px;}
 #router-output{font-size:22px;text-align:left!important;min-height:200px;}
 
 ::-webkit-scrollbar {height: 10px;width: 16px;}/* Track */
@@ -38,10 +38,6 @@ display:block;margin-bottom:-24px;
 
 @media (max-width: 900px){
 .masthead{text-align:center;}
-}}
-
-@media (max-width: 700px){
-.right-float{margin:0;right:0;position:relative;}
 }}
 
 @media (max-width: 550px){
