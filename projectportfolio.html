@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Visa Interview</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.21/vue.cjs.js" integrity="sha512xxe2aXOh4/FgkCAUyurkjk0Uw4m1gPcExFwb1Ai4Ajjg97se/FEWfrLG1na4mq8cgOzouc8qLIqsh0EGksPGdqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script-->
+<!--link href="css/tmisConcept.css" rel="stylesheet"-->
+<link href="css/projport.css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="images/MT.png">
+</head>
+
+<body>
+
+<div id="masthead">
+<span  id="masthead-p"><p>Project Portfolio Analyst | Visa Inc</p></span>
+</div>
+    <div id="app-3" class="container">
+       <p id="router-links-p" class="router-links-container">
+          <router-link to="/responsibilities" class="router-links">Responsibilities [Visa]</router-link>
+          <router-link to="/qualifications" class="router-links">Qualifications [Visa]</router-link>
+          <router-link to="/transparency" class="router-links">Transparency [Scrum Pillar 1]</router-link>
+          <router-link to="/inspection" class="router-links">Inspection [Scrum Pillar 2]</router-link>
+          <router-link to="/adaptation" class="router-links">Adaptation [Scrum Pillar 3]</router-link>
+          <router-link to="/principles" class="router-links">12 Agile Principles</router-link>
+          <router-link to="/competencies" class="router-links">Competencies</router-link>
+       </p>
+
+       <router-view id="router-output" class="scrollmenu"></router-view>
+    </div>
+
+
+<script src="js/projport.js"></script>
+<!-- authored by Michael Tran -->
+</body>
+</html>
