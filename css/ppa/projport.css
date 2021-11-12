@@ -1,0 +1,69 @@
+﻿/* useful tips
+//clear both only on element that follows a floated element   box-shadow: -15px 0px 10px -15px #111; for L
+/* Vertical Centering height: 100px; line-height: 100px;  */
+/*this prevents cutting off of box add box-sizing: border-box;-moz-box-sizing: border-box;float: left; */
+
+*{text-decoration:none;}
+a{color:maroon;}
+#app-3{background:white; font-size:18px;}
+
+body{margin:0;font-family:Arial, Helvetica, sans-serif;}
+
+.container{padding:10px 10px 0 120px;}
+
+input{background:white; border:1px solid #999; border-radius:2px; box-shadow:0px 2px 7px 2px #ebeff5; display:block;
+margin:0 auto; padding:6px; width:40%;} /* margin:0 auto;display:block; to center input */
+input:focus{outline:1px solid red;}
+
+#masthead{border-bottom:1px solid #ebd8d8; background:white; color:#555;  text-align:center;
+	position:sticky;top:0;}
+::placeholder{color:#999;}
+#router-output,#masthead{font-size:18px;color:#444;}
+.router-links:focus{}
+.router-links:hover {text-decoration:underline;}
+.router-links{margin:0 83px 0 0;padding:0px 0px 10px 30px;}
+.router-links-container{float:right; display:inline-grid;padding-top:10px;}
+.router-links-p{}
+
+.scrollmenu {height:100%;overflow-y:scroll;overflow-x:hidden; padding:20px 50px 0 0;
+	white-space:;margin: -10px 250px 0 0;min-height:700px;}
+
+
+/*
+#search-results{z-index:3;background:white;padding:10px 10px 3px 20px;}
+.top-links img{height:18px;}
+*/
+
+ul li{padding-bottom:10px;}
+
+::-webkit-scrollbar {height: 8px;width: 7px;}/* Track */
+::-webkit-scrollbar-track {box-shadow: inset 0 0 5px #999;}/* Handle */
+::-webkit-scrollbar-thumb {background: maroon; border-radius:2px;}/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {background: #b30000;}
+::-webkit-scrollbar-button {background: #999; border-radius:0px;}
+::-webkit-scrollbar-track-piece {background:}
+
+
+
+@media (max-width:700px){
+.router-links-container{{display:none:
+}}
+@media (max-width:700px){
+#router-links-container-p{{display:none:
+}}
+
+@media (max-width:700px){
+.router-links{{display:none:
+}}
+
+
+@media (max-width: 550px){
+input{width:94%;
+}}
+
+@media (max-width: 550px){
+::-webkit-scrollbar {
+}}
+
+
+
