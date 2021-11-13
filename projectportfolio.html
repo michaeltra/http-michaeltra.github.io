@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <!--script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.21/vue.cjs.js" integrity="sha512xxe2aXOh4/FgkCAUyurkjk0Uw4m1gPcExFwb1Ai4Ajjg97se/FEWfrLG1na4mq8cgOzouc8qLIqsh0EGksPGdqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script-->
 <!--link href="css/tmisConcept.css" rel="stylesheet"-->
-<link href="css/projport.css" rel="stylesheet">
+<link href="css/ppa/projport.css" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="images/MT.png">
 </head>
 
@@ -25,18 +25,20 @@
        <p id="router-links-p" class="router-links-container">
           <router-link to="/responsibilities" class="router-links">Responsibilities [Visa]</router-link>
           <router-link to="/qualifications" class="router-links">Qualifications [Visa]</router-link>
+
+          <router-link to="/experience" class="router-links">Work Experience</router-link>
+          <router-link to="/competencies" class="router-links">Competencies</router-link>
           <router-link to="/transparency" class="router-links">Transparency [Scrum Pillar 1]</router-link>
           <router-link to="/inspection" class="router-links">Inspection [Scrum Pillar 2]</router-link>
           <router-link to="/adaptation" class="router-links">Adaptation [Scrum Pillar 3]</router-link>
           <router-link to="/principles" class="router-links">12 Agile Principles</router-link>
-          <router-link to="/competencies" class="router-links">Competencies</router-link>
        </p>
 
        <router-view id="router-output" class="scrollmenu"></router-view>
     </div>
 
 
-<script src="js/projport.js"></script>
+<script src="js/ppa/projport.js"></script>
 <!-- authored by Michael Tran -->
 </body>
 </html>
