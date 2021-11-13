@@ -11,7 +11,7 @@ const Competency = { template:
 }
 
 const Transparency = { template:
-'<div><p><b>From</b>  <a href="https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum">Scrum.org</a></p><p>This means presenting the facts as is. All people involved &#8211 the customer, the CEO, individual contributors &#8211 are transparent in their day-to-day dealings with others. They all trust each other, and they have the courage to keep each other abreast of good news as well as bad news. Everyone strives and collectively collaborates for the common organizational objective, and no one has any hidden agenda.</p></div>'
+'<div><p><b>From</b>  <a href="https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum">Scrum.org</a></p><p>Transparency means presenting the facts as is. All people involved &#8211 the customer, the CEO, individual contributors &#8211 are transparent in their day-to-day dealings with others. They all trust each other, and they have the courage to keep each other abreast of good news as well as bad news. Everyone strives and collectively collaborates for the common organizational objective, and no one has any hidden agenda.</p></div>'
 }
 
 const Inspect = { template:
@@ -26,14 +26,19 @@ const Prince = { template:
 '<div><p><b>From</b> <a href="http://www.scrummanifesto.org/" target="_blank">Scrummanifesto.org</a></p><ol><li>Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.</li><li>Welcome changing requirements, even late in development. Agile processes harness change for the customer&#39;s competitive advantage.</li><li>Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.</li><li>Business people and developers must work together daily throughout the project.</li><li>Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.</li><li>The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.</li><li>Working software is the primary measure of progress.</li><li>Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.</li><li>Continuous attention to technical excellence and good design enhances agility.</li><li>Simplicity is the art of maximizing the amount of work not done is essential.</li><li>The best architectures, requirements, and designs emerge from self&#8211;organizing teams.</li><li>At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</li></ol></div>'
 }
 
+const Exp = { template:
+'<div><p><strong style="color:#EA2A2E;">Change Management Consultant</strong></p><ul><li>Change requested by business operations submitted to Change Management Team (CMT).</li><li>CMT performs initial effort sizing and assignment and reviews requirements with business.</li><li>Requirements documented as Jira stories and both business and CMT meet with Scrum developing team to gain prioritization and commitment to build.</li><li>The Change Control process is initialized in Change Control Center (CCC) to document requirements and release strategy to CCC requirements and meet business needs.</li><li>QA testing performed to validate expected results.</li><li>Process/procedures updated.</li><li>Implementation includes training, communication, and post production validation.</li></ul><p><strong style="color:#EA2A2E;">Scrum Master</strong></p><ul><li>Facilitate Scrum ceremonies that includes Daily Standup, Sprint Planning, Sprint Reviews, and Retrospectives.</li><li>Assist Product Manager and dev team in backlog refinement.</li><li>Perform initial sizing (aka story pointing) with Product Manager and dev team. Work is taken by team, not assigned and requirements reviewed with business.</li><li>Coach dev team and Product Manager in preparation for product demos prior to Sprint Reviews.</li><li>Overcome team impediments so that they can continue product development.</li><li>Provide performance feedback to team managers.</li><li>Reporting of development/project status and team velocity.</li></ul><p><strong style="color:#EA2A2E;">Project Manager</strong></p><ul><li>Develop project strategies and execution of project plan.</li><li>Overcome team impediments so that they can continue product development.</li><li>Monitor and control: reviewing project status and implement necessary changes.</li><li>Ensure requirements documentation is accurate. Meet with business for impact assessment. Facilitate meeting between business ops and dev ops for prioritization and development commitment.</li></ul></div>'
+}
+
 const routes = [
   { path: '/responsibilities', component: Responsibilities },
   { path: '/qualifications', component: Qual },
-  { path: '/competencies', component: Competency },
   { path: '/transparency', component: Transparency },
   { path: '/inspection', component: Inspect },
   { path: '/adaptation', component: Adapt },
   { path: '/principles', component: Prince },
+  { path: '/competencies', component: Competency },
+  { path: '/experience', component: Exp },
 ]
 
 const router = new VueRouter({
