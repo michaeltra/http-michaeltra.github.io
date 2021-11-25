@@ -1,0 +1,89 @@
+  #app{padding:10px 0 0 0;}
+  body{font-family:roboto;margin:0;}
+  .faded { /* properties of items not hovered. can be set to 0 */
+    opacity: 0.1;
+    transition: 0.3s opacity;
+  }
+  .highlight { /* 1 means no opacity effect */
+    opacity: 1;
+  }
+
+  #masthead{background:white; box-shadow: 0 4px 5px -2px #999; line-height: 40px; position:sticky;
+            text-align:center; top:0;width:100%;}
+
+  path.link { /* default line + arrows & self-targeted dependency  */
+    fill: none;
+    stroke: pink;
+    stroke-width: 1.5px; /* arrow proximity */
+  }
+  path.link.Flexible { 
+    stroke: red;
+    stroke-dasharray: 9, 3; /* length and padding of dotted lines */
+  }
+  path.link.Mandatory {
+    stroke: maroon;
+  }  
+  path.link.Internal {
+    stroke: #6628ad;
+  }  
+  path.link.External {
+    stroke: #0300c9;
+    stroke-dasharray: 3, 3;
+  }
+
+  circle {
+    fill:maroon;
+    stroke: black;
+    stroke-width: 1.6px;
+  }
+  circle.highest {
+    fill: #b3473b;
+  }
+  circle.high {
+    fill: orange;
+
+  }  
+  circle.medium {
+    fill: yellow;
+
+  }  
+  circle.low-med {
+    fill: #9effab;
+
+  }  
+  circle.low{
+    fill: #4f5ad6;
+  }
+
+  circle.selected {
+    stroke: black !important;
+    stroke-width: 3px;
+    animation: selected 2s infinite alternate ease-in-out;
+  }
+
+  @keyframes selected {
+    from {
+      stroke-width: 5px;
+      r: 26;
+    }
+    to {
+      stroke-width: 1px;
+      r: 30;
+    }
+  }
+
+  text {
+    font: 14px;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  }
+
+  rect.caption { /* legend */
+    fill: #eee;
+    stroke: #777;
+    stroke-width: 2px;
+  }
+  text.caption { /* legend text */
+    font-size: 18px;
+    font-weight: bold;
+  }
