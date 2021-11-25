@@ -67,7 +67,7 @@
           if (linkTypes.indexOf(link.type) === -1)
             linkTypes.push(link.type)
         })
-        return linkTypes.sort()
+        return linkTypes.sort() //can remove sort()
       },
       classes() {
         const classes = []
@@ -77,13 +77,13 @@
         })
         return classes
       },
+
     },
     created() {
       // You can set the component width and height in any way
       // you prefer. It's responsive! :)
-      this.width = window.innerWidth - 100
+      this.width = window.innerWidth - 100 //width of window
       this.height = window.innerHeight - 1
-
       this.simulation = d3.forceSimulation()
         .force("link", d3.forceLink())
         .force("charge", d3.forceManyBody())
@@ -148,13 +148,14 @@
       this.selections.graph = svg.append("g")
       const graph = this.selections.graph
 
-      // Node and link count
+      // Node and link count style
       this.selections.stats = svg.append('text')
         .attr('x', '1%')
         .attr('y', '98%')
-        .attr('text-anchor', 'left');
+        .attr('text-anchor', 'left')
 
-      // Some caption
+
+      // Legend style + Some caption
       this.selections.caption = svg.append('g');
       this.selections.caption.append('rect')
         .attr('width', '180')
@@ -226,7 +227,10 @@
           .attr("x", 0)
           .attr("y", ".31em")
           .attr("text-anchor", "middle")
-          .text(d => d.name)
+
+
+          .text(d => d.name) //add text in circles here
+
 
         // Add 'marker-end' attribute to each path
         const svg = d3.select(this.$el.querySelector("svg"))
@@ -311,7 +315,7 @@
             .attr('d', linkLine)
             .attr('class', (d) => 'link ' + d)
 
-        linkCaption.selectAll('text')
+        linkCaption.selectAll('text') //text for links inside legend
           .data(this.linkTypes)
           .enter().append('text')
             .attr('x', captionXPadding + 20)
@@ -328,9 +332,9 @@
             .attr('cx', captionXPadding - 2)
             .attr('cy', (d) => captionYPadding + lineMiddle +
               (lineHeight * (this.linkTypes.length + this.classes.indexOf(d))))
-            .attr('class', (d) => d.toLowerCase());
+            .attr('class', (d) => d); //previously coded as => d.toLowerCase())
 
-        classCaption.selectAll('text')
+        classCaption.selectAll('text') //text for classes inside legend
           .data(this.classes)
           .enter().append('text')
             .attr('x', captionXPadding + 20)
