@@ -9,12 +9,17 @@
   }
 
   #masthead{background:white; box-shadow: 0 4px 5px -2px #999; line-height: 40px; position:sticky;
-            text-align:center; top:0;width:100%;}
+            text-align:center; top:0;width:100%;}  
+  #mtlogo{height:30px;position:absolute; top:6px; right:20px;}
+
 
   path.link { /* default line + arrows & self-targeted dependency  */
     fill: none;
     stroke: pink;
     stroke-width: 1.5px; /* arrow proximity */
+      -webkit-filter: drop-shadow( 5px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 5px 3px 2px rgba(0, 0, 0, .7));
+
   }
   path.link.Flexible { 
     stroke: red;
@@ -35,23 +40,25 @@
     fill:maroon;
     stroke: black;
     stroke-width: 1.6px;
+      -webkit-filter: drop-shadow( 6px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 6px 3px 2px rgba(0, 0, 0, .7));
   }
-  circle.highest {
+  circle.Highest {
     fill: #b3473b;
   }
-  circle.high {
+  circle.High {
     fill: orange;
 
   }  
-  circle.medium {
+  circle.Medium {
     fill: yellow;
 
   }  
-  circle.low-med {
+  circle.Low-med {
     fill: #9effab;
 
   }  
-  circle.low{
+  circle.Low{
     fill: #4f5ad6;
   }
 
