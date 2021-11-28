@@ -460,7 +460,7 @@
     data() {
       return {
         data: null,
-        dataList: ['js/dep-model.json'], // , 'dependency2.json', 'dependency3.json'
+        dataList: ['js/dep-model.json'],
       }
     },
     mounted() {
