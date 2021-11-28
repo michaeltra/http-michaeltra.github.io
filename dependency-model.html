@@ -1,0 +1,39 @@
+﻿
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<title>Dependency Model</title>
+  <!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
+  <script src="js/vue.js"></script>
+  <script src="js/d3.v5.min.js"></script>
+
+  <link rel="stylesheet" href="css/dep-model-2.css">
+  <link rel="icon" type="image/x-icon" href="images/MT.png">
+</head>
+<body>
+
+    <div id="masthead">
+        Product/Project Dependencies Current State<img id="mtlogo" src="images/MT.png">
+    </div>
+
+    <div id="main">
+        <div id="app" class="graph-grid"><span class="graph-text-header">Current State</span>
+            
+            <dependency-graph :data="data" style="border-radius:3px"></dependency-graph>
+        </div>
+        <div class="graph-text-bottom">Risk Level [circles], Dependencies [lines]</div>
+        
+        <div id="dep-future" class="graph-grid"><span class="graph-text-header">Future State</span>            
+            <dependency-graph-2 :data="data" style="border-radius:3px"></dependency-graph-2>
+        </div>
+
+        <div class="graph-text-bottom">Risk Level [circles], Dependencies [lines]
+        </div>
+
+
+    </div>
+    <script src="js/dep-model.js"></script>
+    <script src="js/dep-model-2.js"></script>
+</body>
+</html>
