@@ -1,99 +1,97 @@
 
- 
-
-{“nodes“:
+{"nodes":
 
 [
 
-{“name“:“Top“,“id“:0,“status“:“In-prog“,“class“:“Highest“},
+{"name":"Top","id":0,"status":"In-prog","class":"Highest"},
 
-{“name“:“CorporateFunctions“,“id“:1,“status“:“Done“,“class“:“Highest“},
+{"name":"CorporateFunctions","id":1,"status":"Done","class":"Highest"},
 
-{“name“:“BusinessFunctions“,“id“:2,“status“:“To-do“,“class“:“Highest“},
+{"name":"BusinessFunctions","id":2,"status":"To-do","class":"Highest"},
 
-{“name“:“Technology“,“id“:3,“status“:“xxx“,“class“:“Highest“},
+{"name":"Technology","id":3,"status":"xxx","class":"Highest"},
 
-{“name“:“CorporateService“,“id“:4,“status“:“xxx“,“class“:“Highest“},
+{"name":"CorporateService","id":4,"status":"xxx","class":"Highest"},
 
-{“name“:“GlobalFinance“,“id“:5,“status“:“xxx“,“class“:“Highest“},
+{"name":"GlobalFinance","id":5,"status":"xxx","class":"Highest"},
 
-{“name“:“PeopleTeam“,“id“:6,“status“:“xxx“,“class“:“Highest“},
+{"name":"PeopleTeam","id":6,"status":"xxx","class":"Highest"},
 
-{“name“:“Risk“,“id“:7,“status“:“xxx“,“class“:“Highest“},
+{"name":"Risk","id":7,"status":"xxx","class":"Highest"},
 
-{“name“:“RegionalMarketing“,“id“:8,“status“:“xxx“,“class“:“High“},
+{"name":"RegionalMarketing","id":8,"status":"xxx","class":"High"},
 
-{“name“:“Legal“,“id“:9,“status“:“xxx“,“class“:“High“},
+{"name":"Legal","id":9,"status":"xxx","class":"High"},
 
-{“name“:“GlobalMarketing“,“id“:10,“status“:“xxx“,“class“:“High“},
+{"name":"GlobalMarketing","id":10,"status":"xxx","class":"High"},
 
-{“name“:“NewPaymentFlows“,“id“:11,“status“:“xxx“,“class“:“High“},
+{"name":"NewPaymentFlows","id":11,"status":"xxx","class":"High"},
 
-{“name“:“WorldwideComms“,“id“:12,“status“:“xxx“,“class“:“Medium“},
+{"name":"WorldwideComms","id":12,"status":"xxx","class":"Medium"},
 
-{“name“:“WorldwideMarketing“,“id“:13,“status“:“xxx“,“class“:“Medium“},
+{"name":"WorldwideMarketing","id":13,"status":"xxx","class":"Medium"},
 
-{“name“:“Executive&Other“,“id“:14,“status“:“xxx“,“class“:“Medium“},
+{"name":"Executive&Other","id":14,"status":"xxx","class":"Medium"},
 
-{“name“:“InclusiveImpact&Sustain“,“id“:15,“status“:“xxx“,“class“:“Medium“},
+{"name":"InclusiveImpact&Sustain","id":15,"status":"xxx","class":"Medium"},
 
-{“name“:“Operations&Infra“,“id“:16,“status“:“xxx“,“class“:“Low-med“},
+{"name":"Operations&Infra","id":16,"status":"xxx","class":"Low-med"},
 
-{“name“:“ValueAddedServicesPD“,“id“:17,“status“:“xxx“,“class“:“Low-med“},
+{"name":"ValueAddedServicesPD","id":17,"status":"xxx","class":"Low-med"},
 
-{“name“:“PaymentProdDev“,“id“:18,“status“:“xxx“,“class“:“Low-med“},
+{"name":"PaymentProdDev","id":18,"status":"xxx","class":"Low-med"},
 
-{“name“:“CorporateIT“,“id“:19,“status“:“xxx“,“class“:“Low-med“},
+{"name":"CorporateIT","id":19,"status":"xxx","class":"Low-med"},
 
-{“name“:“NewFlowsPD“,“id“:20,“status“:“xxx“,“class“:“Low“},
+{"name":"NewFlowsPD","id":20,"status":"xxx","class":"Low"},
 
-{“name“:“Cybersecurity“,“id“:21,“status“:“xxx“,“class“:“Low“},
+{"name":"Cybersecurity","id":21,"status":"xxx","class":"Low"},
 
-{“name“:“Data&AIPlatform“,“id“:22,“status“:“xxx“,“class“:“Low“}
+{"name":"Data&AIPlatform","id":22,"status":"xxx","class":"Low"}
 
 ],
 
-“links“:
+"links":
 
 [
 
-{“source“:0,“target“:8,“type“:“Mandatory“},
+{"source":0,"target":8,"type":"Mandatory"},
 
-{“source“:0,“target“:5,“type“:“Mandatory“},
+{"source":0,"target":5,"type":"Mandatory"},
 
-{“source“:1,“target“:6,“type“:“Mandatory“},
+{"source":1,"target":6,"type":"Mandatory"},
 
-{“source“:1,“target“:4,“type“:“Mandatory“},
+{"source":1,"target":4,"type":"Mandatory"},
 
-{“source“:2,“target“:7,“type“:“Flexible“},
+{"source":2,"target":7,"type":"Flexible"},
 
-{“source“:2,“target“:9,“type“:“Flexible“},
+{"source":2,"target":9,"type":"Flexible"},
 
-{“source“:3,“target“:5,“type“:“Internal“},
+{"source":3,"target":5,"type":"Internal"},
 
-{“source“:5,“target“:3,“type“:“Internal“},
+{"source":5,"target":3,"type":"Internal"},
 
-{“source“:4,“target“:3,“type“:“External“},
+{"source":4,"target":3,"type":"External"},
 
-{“source“:5,“target“:0,“type“:“Mandatory“},
+{"source":5,"target":0,"type":"Mandatory"},
 
-{“source“:6,“target“:9,“type“:“External“},
+{"source":6,"target":9,"type":"External"},
 
-{“source“:7,“target“:9,“type“:“Internal“},
+{"source":7,"target":9,"type":"Internal"},
 
-{“source“:8,“target“:0,“type“:“External“},
+{"source":8,"target":0,"type":"External"},
 
-{“source“:9,“target“:4,“type“:“External“},
+{"source":9,"target":4,"type":"External"},
 
-{“source“:10,“target“:6,“type“:“Internal“},
+{"source":10,"target":6,"type":"Internal"},
 
-{“source“:11,“target“:2,“type“:“Flexible“},
+{"source":11,"target":2,"type":"Flexible"},
 
-{“source“:12,“target“:12,“type“:“Internal“},
+{"source":12,"target":12,"type":"Internal"},
 
-{“source“:13,“target“:13,“type“:“Internal“},
+{"source":13,"target":13,"type":"Internal"},
 
-{“source“:14,“target“:12,“type“:“External“}
+{"source":14,"target":12,"type":"External"}
 
 ]
 
