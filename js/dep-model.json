@@ -1,99 +1,99 @@
 
-{"nodes":                                                                                 
+{"nodes":                                                                                             
 
-[                                                                                  
+[                                                                                              
 
-{"name":"         Top      ",          "id":     Top,     "status":"In-prog         ",            "class":"Highest"},
+{"name":"         Top      ",          "id":"    Top      ",          "status":"In-prog         ",            "class":"Highest"},
 
-{"name":"         Corporate Functions   ",          "id":     Corporate Functions,            "status":"Done ",          "class":"Highest"},
+{"name":"         Corporate Functions   ",          "id":"    Corporate Functions   ",            "status":"Done ",          "class":"Highest"},
 
-{"name":"         Business Functions      ",          "id":     Business Functions,            "status":"To-do            ",          "class":"Highest"},
+{"name":"         Business Functions      ",          "id":"    Business Functions      ",            "status":"To-do            ",          "class":"Highest"},
 
-{"name":"         Technology      ",          "id":     3,         "status":"xxx     ",            "class":"Highest"},
+{"name":"         Technology      ",          "id":     3          ,           "status":"xxx     ",            "class":"Highest"},
 
-{"name":"         Corporate Service        ",          "id":     4,         "status":"xxx     ",            "class":"Highest"},
+{"name":"         Corporate Service        ",          "id":     4          ,           "status":"xxx     ",            "class":"Highest"},
 
-{"name":"         Global Finance ",          "id":     5,         "status":"xxx     ",            "class":"Highest"},
+{"name":"         Global Finance ",          "id":     5          ,           "status":"xxx     ",            "class":"Highest"},
 
-{"name":"         People Team   ",          "id":     6,         "status":"xxx     ",            "class":"Highest"},
+{"name":"         People Team   ",          "id":     6          ,           "status":"xxx     ",            "class":"Highest"},
 
-{"name":"         Risk      ",          "id":     7,         "status":"xxx     ",          "class":"Highest"},
+{"name":"         Risk      ",          "id":     7          ,           "status":"xxx     ",            "class":"Highest"},
 
-{"name":"         Regional Marketing     ",          "id":     8,         "status":"xxx     ",            "class":"High"},
+{"name":"         Regional Marketing     ",          "id":     8          ,           "status":"xxx     ",            "class":"High"},
 
-{"name":"         Legal    ",          "id":     9,         "status":"xxx     ",          "class":"High"},
+{"name":"         Legal    ",          "id":     9          ,           "status":"xxx     ",            "class":"High"},
 
-{"name":"         Global Marketing         ",          "id":     10,       "status":"xxx     ",            "class":"High"},
+{"name":"         Global Marketing         ",          "id":     10        ,           "status":"xxx     ",            "class":"High"},
 
-{"name":"         New Payment Flows    ",          "id":     11,       "status":"xxx     ",            "class":"High"},
+{"name":"         New Payment Flows    ",          "id":     11        ,           "status":"xxx     ",            "class":"High"},
 
-{"name":"         Worldwide Comms     ",          "id":     12,       "status":"xxx     ",            "class":"Medium"},
+{"name":"         Worldwide Comms     ",          "id":     12        ,           "status":"xxx     ",            "class":"Medium"},
 
-{"name":"         Worldwide Marketing ",          "id":     13,       "status":"xxx     ",            "class":"Medium"},
+{"name":"         Worldwide Marketing ",          "id":     13        ,           "status":"xxx     ",            "class":"Medium"},
 
-{"name":"         Executive & Other       ",          "id":     14,       "status":"xxx     ",            "class":"Medium"},
+{"name":"         Executive & Other       ",          "id":     14        ,           "status":"xxx     ",            "class":"Medium"},
 
-{"name":"         Inclusive Impact & Sustain      ",          "id":     15,       "status":"xxx     ",            "class":"Medium"},
+{"name":"         Inclusive Impact & Sustain      ",          "id":     15        ,            "status":"xxx     ",          "class":"Medium"},
 
-{"name":"         Operations & Infra      ",          "id":     16,       "status":"xxx     ",            "class":"Low-med"},
+{"name":"         Operations & Infra      ",          "id":     16        ,           "status":"xxx     ",            "class":"Low-med"},
 
-{"name":"         Value Added Services PD        ",          "id":     17,       "status":"xxx     ",            "class":"Low-med"},
+{"name":"         Value Added Services PD        ",          "id":     17        ,            "status":"xxx     ",          "class":"Low-med"},
 
-{"name":"         Payment Prod Dev      ",          "id":     18,       "status":"xxx     ",            "class":"Low-med"},
+{"name":"         Payment Prod Dev      ",          "id":     18        ,           "status":"xxx     ",            "class":"Low-med"},
 
-{"name":"         Corporate IT    ",          "id":     19,       "status":"xxx     ",            "class":"Low-med"},
+{"name":"         Corporate IT    ",          "id":     19        ,           "status":"xxx     ",            "class":"Low-med"},
 
-{"name":"         New Flows PD ",          "id":     20,       "status":"xxx     ",            "class":"Low"},
+{"name":"         New Flows PD ",          "id":     20        ,           "status":"xxx     ",            "class":"Low"},
 
-{"name":"         Cybersecurity   ",          "id":     21,       "status":"xxx     ",            "class":"Low"},
+{"name":"         Cybersecurity   ",          "id":     21        ,           "status":"xxx     ",            "class":"Low"},
 
-{"name":"         Data & AI Platform      ",          "id":     22,       "status":"xxx     ",            "class":"Low"}
+{"name":"         Data & AI Platform      ",          "id":     22        ,           "status":"xxx     ",            "class":"Low"}
 
-],                                                                                 
+],                                                                                             
 
-"links":                                                                        
+"links":                                                                                    
 
-[                                                                                  
+[                                                                                              
 
-{"source":Top,  "target":           0          ,           "type":"Mandatory"},                          
+{"source":         "Top,                "target":           0          ,           "type":"Mandatory"},              
 
-{"source":Corporate Functions,           "target":           Top      ,            "type":"Mandatory"},                          
+{"source":"        Corporate Functions   ",          "target":"          Top      ",            "type":"Mandatory"},              
 
-{"source":Corporate Functions,           "target":           Top      ,            "type":"Mandatory"},                          
+{"source":"        Corporate Functions   ",          "target":"          Top      ",            "type":"Mandatory"},              
 
-{"source":Corporate Functions,           "target":           Top      ,            "type":"Mandatory"},                          
+{"source":"        Corporate Functions   ",          "target":"          Top      ",            "type":"Mandatory"},              
 
-{"source":Corporate Functions,           "target":           Top      ,           "type":"Flexible"},                                   
+{"source":"        Corporate Functions   ",          "target":"          Top      ",            "type":"Flexible"},                    
 
-{"source":Corporate Functions,           "target":           Top      ,           "type":"Flexible"},                                   
+{"source":"        Corporate Functions   ",          "target":"          Top      ",            "type":"Flexible"},                    
 
-{"source":Corporate Functions,           "target":           Top      ,           "type":"Internal"},                                   
+{"source":"        Corporate Functions   ",          "target":"          Top      ",            "type":"Internal"},                    
 
-{"source":5,      "target":           Top      ,           "type":"Internal"},                                
+{"source":         5,                     "target":"          Top      ",          "type":"Internal"},                    
 
-{"source":4,      "target":           Top      ,           "type":"External"},                                
+{"source":         4,                     "target":"          Top      ",          "type":"External"},                    
 
-{"source":5,      "target":           Top      ,           "type":"Mandatory"},                          
+{"source":         5,                     "target":"          Top      ",          "type":"Mandatory"},              
 
-{"source":6,      "target":           9          ,           "type":"External"},                                
+{"source":         6,                     "target":           9          ,           "type":"External"},                    
 
-{"source":7,      "target":           9          ,           "type":"Internal"},                                
+{"source":         7,                     "target":           9          ,           "type":"Internal"},                    
 
-{"source":8,      "target":           Top      ,           "type":"External"},                                
+{"source":         8,                     "target":"          Top      ",          "type":"External"},                    
 
-{"source":9,      "target":           4          ,           "type":"External"},                                
+{"source":         9,                     "target":           4          ,           "type":"External"},                    
 
-{"source":10,    "target":           6          ,           "type":"Internal"},                                
+{"source":         10,                   "target":           6          ,           "type":"Internal"},                    
 
-{"source":11,    "target":           Top      ,           "type":"Flexible"},                                
+{"source":         11,                   "target":"          Top      ",          "type":"Flexible"},                    
 
-{"source":12,    "target":           12        ,           "type":"Internal"},                                
+{"source":         12,                   "target":           12        ,           "type":"Internal"},                    
 
-{"source":13,    "target":           13        ,           "type":"Internal"},                                
+{"source":         13,                   "target":           13        ,           "type":"Internal"},                    
 
-{"source":14,    "target":           12        ,           "type":"External"}                                
+{"source":         14,                   "target":           12        ,           "type":"External"}                    
 
-]                                                                                  
+]                                                                                              
 
-}                                                                                  
+}                                                                                              
 
