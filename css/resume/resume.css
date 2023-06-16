@@ -275,12 +275,12 @@ padding-top: 40px;
 @media (max-width: 993px) {
   .carousel {
     height: 633px;
-    background: #060607;
+    background: #53413D;
   }
 
   .carousel .item {
     height: 633px;
-    background-color: #060607;
+    background-color: #53413D;
   }
 
 
